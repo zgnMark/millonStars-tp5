@@ -1,0 +1,51 @@
+{
+    "name": "百成巨星",
+    "description": "百成巨星直播平台",
+    "type": "project",
+    "keywords": [],
+    "homepage": "http://www.yikaipu.com/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "sujun",
+            "email": "sujun@351699382.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "topthink/framework": "~5.0.0",
+        "topthink/think-captcha": "1.*",
+        "topthink/think-migration": "1.*",
+        "topthink/think-testing": "1.*",
+        "topthink/think-mongo": "1.*",
+        "topthink/think-queue": "1.*",
+        "topthink/think-image": "1.*",
+
+        "sujun/auth":"v1.0.0",
+        "symfony/process": "^3.2",
+        "symfony/console": "^3.2",
+        "mtdowling/cron-expression": "^1.2",
+        "monolog/monolog": "^1.23.0",
+        "guzzlehttp/guzzle": "6.3.0",
+        "ramsey/uuid": "^3.7"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "application",
+            "Console\\": "console"
+        }
+    },
+    "extra": {
+        "think-path": "thinkphp"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
